@@ -19,7 +19,7 @@ echo $msg1 "become " ${msg1#"hello"}
 
 echo ""
 
-## Uppercase
+## Uppercase and lowercase
 echo $msg1 "become " ${msg1^^}
 echo $msg2 "become " ${msg2,,}
 

@@ -13,3 +13,5 @@ lines=(`cat "/etc/fstab"`)
 echo $lines
 
 echo "$(cat /etc/fstab)"
+
+echo "${0%/*}"

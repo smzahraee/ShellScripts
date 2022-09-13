@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## loops
+## for loops
 for (( i=0;i<10 ;i++));do
     echo "Hello $i";
 done
@@ -27,9 +27,12 @@ for i in /etc/*.conf; do
      fi
 done
 
+## while loop
+
 cat /home/mohsen/lcd.sh | while read line; do
     echo $line
 done
+
 
 x=1
 while [ $x -le 5 ]; do
